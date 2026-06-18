@@ -22,8 +22,8 @@ class Student {
 	static String dept = "AI_DS";
 
 	public static void acceptAllStudents(Student[] arr) {
-//		System.out.println(rollno); // NOT OK
-		System.out.println(dept); // OK
+
+		System.out.println(dept);
 		Scanner sc = new Scanner(System.in);
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = new Student();
