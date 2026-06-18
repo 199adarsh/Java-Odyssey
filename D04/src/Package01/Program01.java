@@ -52,7 +52,6 @@ public class Program01 {
 		c4.calculateArea();
 
 		Student[] arr = new Student[5];
-
 		Student.acceptAllStudents(arr);
 		Student.displayAllStudents(arr);
 

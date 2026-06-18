@@ -2,7 +2,6 @@ package Package02;
 
 import java.util.Scanner;
 
-// Employee has-a DOJ
 public class Employee {
 	int empid;
 	String name;
@@ -14,7 +13,6 @@ public class Employee {
 	public Employee() {
 		doj = new Date();
 	}
-
 	public void acceptEmployee(Scanner sc) {
 		System.out.print("Enter empid - ");
 		empid = sc.nextInt();
