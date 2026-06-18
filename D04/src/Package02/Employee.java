@@ -7,8 +7,7 @@ public class Employee {
 	int empid;
 	String name;
 	double salary;
-	// Field Initializer
-	// Date doj = new Date(); // Associatation (Composition)
+
 	Date doj;// Associatation (Composition)
 	Date dot; // Asscoiatation (Aggegration)
 
