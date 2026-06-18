@@ -20,6 +20,7 @@ public class PatternPrinting{
 	
 	public static void main (String[] args){
 		int i = 4;
+		String sc = "XyZ0";
 		int j =1;
 		for (int k = 1; k < 6; k++){
 			for(i = 5; i>k; i--  ){

@@ -1,11 +1,23 @@
-/*
-1. Start
-2. Initialize a scanner class object 
-3. Declare a integer variable 
-4. Take input for integer 
-5. Convert the integer into scanner class
-6. Use Wrapper Class (toBinaryString() , toOctalString(), toHexString())
-7. Print the strings and display output  
-*/
+import java.util.Scanner;
 
+public class Test {
+    public static void main(String[] args) {
+        // Create Scanner object to accept input from the user
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter Number : ");
+        if (scanner.hasNextInt()) {
 
+            int number = scanner.nextInt();
+            
+            System.out.println("Given Number :" + number);
+            System.out.println("Binary equivalent :" + Integer.toBinaryString(number));
+            System.out.println("Octal equivalent :" + Integer.toOctalString(number));
+            System.out.println("Hexadecimal equivalent :" + Integer.toHexString(number));
+        } else {
+            System.out.println("Invalid input. Please enter an integer.");
+        }
+        
+        scanner.close();
+	}
+}
