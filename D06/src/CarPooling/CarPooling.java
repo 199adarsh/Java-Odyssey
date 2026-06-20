@@ -18,6 +18,7 @@ public class CarPooling {
 		this.tolls = tolls;
 	}
 
+
 	void vehicleCost (){
 		vehicleCost = (milesDriven/ averageMileage)*gallonCost;
 		System.out.println ("Vehicle Cost : " +vehicleCost);
