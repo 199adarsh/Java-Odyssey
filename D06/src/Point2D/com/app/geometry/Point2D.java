@@ -1,4 +1,4 @@
-package com.app.geometry;
+package Point2D.com.app.geometry;
 
 public class Point2D {
     private double x;
@@ -9,7 +9,15 @@ public class Point2D {
         this.y = y;
     }
 
-    public String getDetails() {
+	public void setX (double x) {
+		this.x = x;
+	}
+
+	public void setY (double y) {
+		this.y = y;
+	}
+
+	public String getDetails() {
         return "Point(x: " + x + ", y: " + y + ")";
     }
 
