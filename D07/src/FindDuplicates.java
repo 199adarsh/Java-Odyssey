@@ -1,5 +1,3 @@
-package assignments;
-
 public class FindDuplicates {
 
     public void main(String[] args){
