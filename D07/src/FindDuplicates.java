@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FindDuplicates {
 
-    public void main(String[] args){
+    void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of Array");
