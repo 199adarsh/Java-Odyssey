@@ -15,7 +15,8 @@ public class BankAccount {
 
   static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    Bank[] accounts = new Bank[5];
+    int size = sc.nextInt();
+    Bank[] accounts = new Bank[size];
     int count = 0;
 
     while (true) {
@@ -26,7 +27,7 @@ public class BankAccount {
 
       switch (choice) {
         case 1:
-          if (count < 5) {
+          if (count < size) {
             System.out.print("Enter Account No, User Name, Account Balance, Type(Savings/Current): ");
             accounts[count++] = new Bank(sc.nextInt(), sc.next(), sc.nextDouble(), sc.next());
           }
