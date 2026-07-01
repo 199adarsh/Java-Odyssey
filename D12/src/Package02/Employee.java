@@ -1,4 +1,4 @@
-package p1;
+package Package02;
 
 public class Employee {
 	int empid;
